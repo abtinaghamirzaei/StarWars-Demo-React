@@ -7,6 +7,105 @@
   pointer-events: none;
 }
 
+.myBody{
+  background-image: url(back_im3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: auto;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.middleBox{
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 28%;
+  margin-right: 20;
+  background-color: #000000cc;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+}
+
+.infoBox{
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #d4c7c7cc;
+  color: #282c34;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+}
+
+#itemsBox{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5%;
+  padding-right: 0%;
+}
+
+#title{
+  color: aliceblue;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.movieNames{
+  font-size: large;
+  margin-left: 5%;
+  display: flex;
+  color: azure;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  width: 50%;
+  flex:auto;
+  font-weight: bold;
+}
+
+.properties{
+  font-size: medium;
+  width: 50%;
+  display: flex;
+  color: azure;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  margin-bottom: 14%;
+  font-weight: 400;
+}
+
+.c1{
+  background-color: rgb(227, 173, 24);
+  display: flex;
+  width: 100px;
+  border: 1px solid #d1c9be;
+  margin-bottom: 46%;
+  margin-left: 50%;
+  margin-right: 0%;
+}
+
+.c2{
+  background-color: rgb(227, 173, 24);
+  display: flex;
+  width: 100px;
+  border: 1px solid #d1c9be;
+  margin-bottom: 19%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
